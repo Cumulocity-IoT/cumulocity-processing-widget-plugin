@@ -1,0 +1,2 @@
+/*! For license information please see 62754.0bd84a73571c75d31035.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[62754],{62754:function(i,a,e){e.r(a);const u=void 0;a.default=[[["miezul nopții","amiază","dimineață","după-amiază","seară","noapte"],["miezul nopții","amiază","dimineața","după-amiaza","seara","noaptea"],u],u,["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","22:00"],["22:00","05:00"]]]}}]);

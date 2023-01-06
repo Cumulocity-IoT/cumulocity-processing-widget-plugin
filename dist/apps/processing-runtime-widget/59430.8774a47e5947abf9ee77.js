@@ -1,0 +1,2 @@
+/*! For license information please see 59430.8774a47e5947abf9ee77.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[59430],{59430:function(u,c,i){i.r(c);const e=void 0;c.default=[[["ярим тун","туш пайти","эрталаб","кундузи","кечқурун","кечаси"],e,e],e,["00:00","12:00",["06:00","11:00"],["11:00","18:00"],["18:00","22:00"],["22:00","06:00"]]]}}]);

@@ -1,0 +1,2 @@
+/*! For license information please see 34887.70a4a36059af6cf954ae.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[34887],{34887:function(u,c,i){i.r(c);const e=void 0;c.default=[[["πρωί","μεσημ.","απόγ.","βράδυ"],e,["το πρωί","το μεσημέρι","το απόγευμα","το βράδυ"]],[["πρωί","μεσημ.","απόγ.","βράδυ"],e,["πρωί","μεσημέρι","απόγευμα","βράδυ"]],[["04:00","12:00"],["12:00","17:00"],["17:00","20:00"],["20:00","04:00"]]]}}]);

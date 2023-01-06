@@ -1,0 +1,68 @@
+<div class="form-group">
+
+  <div style="display: flex;">
+    <div style="flex-grow:1 ; margin-right: 5px;">
+      <label translate>Event Type</label>
+      <input class="form-control" style="width: 100%" type="text" name="config.indoorEventType"
+        [(ngModel)]="config.indoorEventType" />
+    </div>
+    <div style=" flex-grow: 1; margin-right: 5px;">
+      <label translate>Field Name</label>
+      <input class="form-control" style="width: 100%" type="text" name="config.fieldName"
+        [(ngModel)]="config.fieldName" />
+    </div>
+
+  </div><br>
+  <div class="process-input" *ngIf="dataLoaded | async">
+    <table mat-table [dataSource]="config.dataSource" class="mat-elevation-z8 table-card">
+
+      <!-- Display Status Column -->
+      <ng-container matColumnDef="displayStatus">
+        <th mat-header-cell *matHeaderCellDef> Display Status </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" class="form-control" name="displayStatus"  [(ngModel)]="element.displayStatus"/>
+        </td>
+      </ng-container>
+
+      <!-- Field Value Column -->
+      <ng-container matColumnDef="fieldValue">
+        <th mat-header-cell *matHeaderCellDef> Field Value </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" class="form-control"  [(ngModel)]="element.fieldValue"/>
+        </td>
+      </ng-container>
+
+      <!-- Icon Column -->
+      <ng-container matColumnDef="icon">
+        <th mat-header-cell *matHeaderCellDef> Icon </th>
+        <td mat-cell *matCellDef="let element">
+          <icon-selector id="icon" name="icon" [(value)]="element.matIcon"></icon-selector>
+        </td>
+      </ng-container>
+
+      <!-- Action Column -->
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef> Action </th>
+        <td mat-cell *matCellDef="let element ; let i = index">
+          <button aria-label="Delete Row" class="btn btn-clean">
+            <i title="Delete Row" c8y-icon="delete" class="dlt-c8y-icon-delete" (click)="deleteRow(i)"></i>
+          </button>
+          <button  class="btn btn-clean" aria-label="Insert New Row">
+            <i title="Insert New Row" c8y-icon="add-new" class="dlt-c8y-icon-add-new" (click)="addNewRow(i)"></i>
+          </button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+
+  </div>
+  <div class="form-group">
+    <label class="c8y-switch">
+      <input type="checkbox" checked="config.innerChild" [(ngModel)]="config.innerChild" />
+      <span></span> Include child devices
+    </label>
+  </div>
+</div>

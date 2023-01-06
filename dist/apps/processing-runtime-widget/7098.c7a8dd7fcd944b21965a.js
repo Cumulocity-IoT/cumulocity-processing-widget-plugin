@@ -1,0 +1,2 @@
+/*! For license information please see 7098.c7a8dd7fcd944b21965a.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[7098],{7098:function(e,n,t){t.r(n);const i=void 0;n.default=[[["midnat","om morgenen","om formiddagen","om eftermiddagen","om aftenen","om natten"],i,i],[["midnat","morgen","formiddag","eftermiddag","aften","nat"],i,i],["00:00",["05:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","05:00"]]]}}]);

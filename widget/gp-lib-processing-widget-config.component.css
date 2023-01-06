@@ -1,0 +1,21 @@
+.table-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .process-input {
+    margin-bottom: 20px;
+  }
+    td.mat-cell,
+  td.mat-footer-cell,
+  th.mat-header-cell {
+    padding-left: 15px !important;
+  }
+  .cdk-overlay-container{
+    z-index: 1100;
+}
+
+.ng-select.processingWidget .ng-select-container  {            
+  min-width: 150px;
+}

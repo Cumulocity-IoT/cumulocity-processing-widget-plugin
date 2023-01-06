@@ -1,0 +1,2 @@
+/*! For license information please see 6475.cba73698192a233db139.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[6475],{6475:function(u,e,i){i.r(e);const n=void 0;e.default=[[["entathakusa","ekuseni","emini","ntambama","ebusuku"],n,n],n,[["00:00","06:00"],["06:00","10:00"],["10:00","13:00"],["13:00","19:00"],["19:00","24:00"]]]}}]);

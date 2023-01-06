@@ -1,0 +1,2 @@
+/*! For license information please see 79008.9ffc61018b673fe9699e.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[79008],{79008:function(e,l,t){t.r(l);const u=void 0;l.default=[[["éjfél","dél","reggel","de.","du.","este","éjjel","hajnal"],u,["éjfél","dél","reggel","délelőtt","délután","este","éjjel","hajnal"]],u,["00:00","12:00",["06:00","09:00"],["09:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"],["04:00","06:00"]]]}}]);

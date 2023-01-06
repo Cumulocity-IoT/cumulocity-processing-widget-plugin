@@ -1,0 +1,29 @@
+{
+  "author": "Software AG, Global Presales",
+  "name": "Cumulocity Processing Widget Plugin",
+  "version": "1.0.0-beta",
+  "description": "Cumulocity Processing Widget Plugin with module federation",
+  "license": "Apache 2.0",
+  "keywords": [],
+  "contextPath": "processing-runtime-widget",
+  "key": "processing-runtime-widget-application-key",
+  "globalTitle": "Cumulocity Processing Widget Plugin with Module Federation",
+  "tabsHorizontal": true,
+  "isPackage": true,
+  "noAppSwitcher": true,
+  "package": "plugin",
+  "requiredPlatformVersion": ">=1016.0.0",
+  "exports": [
+    {
+      "name": "Cumulocity Processing Widget Plugin",
+      "module": "GpLibProcessingWidgetModule",
+      "path": "./widget/gp-lib-processing-widget.module",
+      "description": "This is the Cumulocity module federation plugin.This widget plugin is designed to display the current process state based on the latest event."
+    }
+  ],
+  "remotes": {
+    "widget-plugin": [
+      "GpLibProcessingWidgetModule"
+    ]
+  }
+}

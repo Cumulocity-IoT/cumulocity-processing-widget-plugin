@@ -1,0 +1,2 @@
+/*! For license information please see 6254.2b330e32c94a2a1688b0.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[6254],{6254:function(u,a,i){i.r(a);const t=void 0;a.default=[[["pituna pyterupé","iandé-ara-pyturepé","kuêma ramẽ","karuka ramẽ","pituna ramẽ","pitunaeté ramẽ"],t,t],t,["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]}}]);

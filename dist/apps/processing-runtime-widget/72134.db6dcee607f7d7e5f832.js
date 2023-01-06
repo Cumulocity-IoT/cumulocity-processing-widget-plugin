@@ -1,0 +1,2 @@
+/*! For license information please see 72134.db6dcee607f7d7e5f832.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[72134,7388],{72134:function(n,u,c){c.r(u),c.d(u,{VERSION:function(){return e}});const e=new(c(40761).Version)("14.1.2")}}]);

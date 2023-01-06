@@ -1,0 +1,2 @@
+/*! For license information please see 47074.9e6509c6c79121feb2c9.js.LICENSE.txt */
+"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[47074],{47074:function(u,c,i){i.r(c);const e=void 0;c.default=[[["полунощ","сутринта","на обяд","следобед","вечерта","през нощта"],e,e],e,["00:00",["04:00","11:00"],["11:00","14:00"],["14:00","18:00"],["18:00","22:00"],["22:00","04:00"]]]}}]);
