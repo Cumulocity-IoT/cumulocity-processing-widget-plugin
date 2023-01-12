@@ -1,4 +1,4 @@
-# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>]()
+# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/tag/1.0.0-beta)
 
 
 This is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. The Processing Widget is designed to display the current process state based on the latest event. Updates the state whenever a new event is received.
@@ -37,7 +37,7 @@ To deliver the expected functionality one need to set/select the following confi
  
  ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary]() and use application builder to install your runtime widget.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/tag/1.0.0-beta) and use application builder to install your runtime widget.
 
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.
