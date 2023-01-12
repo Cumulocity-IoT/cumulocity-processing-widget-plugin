@@ -1,7 +1,7 @@
 {
   "name": "cumulocity-processing-widget-plugin",
   "version": "1.0.0-beta",
-  "description": "This is the Cumulocity module federation plugin.This widget plugin is designed to display the current process state based on the latest event.",
+  "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
   "scripts": {
     "start": "c8ycli server --env.beta=true",
     "build": "c8ycli build --env.mode=production",
@@ -58,10 +58,10 @@
   "c8y": {
     "application": {
       "name": "Cumulocity Processing Widget Plugin",
-      "description": "Cumulocity Processing Widget Plugin with module federation",
+      "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
       "contextPath": "processing-runtime-widget",
       "key": "processing-runtime-widget-application-key",
-      "globalTitle": "Cumulocity Processing Widget Plugin with Module Federation",
+      "globalTitle": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -72,7 +72,7 @@
           "name": "Cumulocity Processing Widget Plugin",
           "module": "GpLibProcessingWidgetModule",
           "path": "./widget/gp-lib-processing-widget.module",
-          "description": "This is the Cumulocity module federation plugin.This widget plugin is designed to display the current process state based on the latest event."
+          "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed."
         }
       ],
       "remotes": {
