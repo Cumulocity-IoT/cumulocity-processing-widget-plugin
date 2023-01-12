@@ -1,33 +1,23 @@
 # Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>]()
 
-This is the Cumulocity module federation plugin. Plugins can be developed like any Cumulocity application, but can be used at runtime by other applications. Therefore, they export an Angular module which can then be imported by any other application. The exports are defined in `package.json`:
 
-```
-"exports": [
-  {
-     "name": "Example widget plugin",
-     "module": "WidgetPluginModule",
-     "path": "./widget/widget-plugin.module.ts",
-     "description": "Adds custom widget"
-  }
-]
-```
+This is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. The Processing Widget is designed to display the current process state based on the latest event. Updates the state whenever a new event is received.
 
-**How to start**
-Run the command below to scaffold a `widget` plugin.
+To deliver the expected functionality one need to set/select the following configuration parameters:
+ 1. Event Type(required)
+ 2. Device/Group (select)
+ 3. Field Name(required)
+ 4. Display Status for each state (atleast 1)
+ 5. Field value for each state (atleast 1)
+ 6. mat-icon name for each state(select)
+ 7. Include child devices - You can toggle the slider if you want the results for child devices also.
 
-```
-c8ycli new <yourPluginName> widget-plugin
-```
 
-As the app.module is a typical Cumuloctiy application, any new plugin can be tested via the CLI:
+## Please note that this plugin is in currently under BETA mode.
+  
+### Please choose Compass Widget release based on Cumulocity/Application builder version:
 
-```
-npm start -- --shell cockpit
-```
+|APPLICATION BUILDER  | CUMULOCITY  | COMPASS WIDGET   |
+|-------------------- |------------ |------------------|
+| 2.x.x(coming soon)  | >= 1016.x.x |	1.x.x          |
 
-In the Module Federation terminology, `widget` plugin is called `remote` and the `cokpit` is called `shell`. Modules provided by this `widget` will be loaded by the `cockpit` application at the runtime. This plugin provides a basic custom widget that can be accessed through the `Add widget` menu.
-
-> Note that the `--shell` flag creates a proxy to the cockpit application and provides` WidgetPluginModule` as an `remote` via URL options.
-
-Also deploying needs no special handling and can be simply done via `npm run deploy`. As soon as the application has exports it will be uploaded as a plugin.
