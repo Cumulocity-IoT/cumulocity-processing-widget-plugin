@@ -67,6 +67,9 @@
       "noAppSwitcher": true,
       "package": "plugin",
       "requiredPlatformVersion": ">=1016.0.0",
+      "icon": {
+        "class": "fa fa-shopping-cart"
+      },
       "exports": [
         {
           "name": "Cumulocity Processing Widget Plugin",

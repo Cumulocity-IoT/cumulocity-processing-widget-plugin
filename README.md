@@ -1,4 +1,4 @@
-# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/tag/1.0.0-beta)
+# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0-beta/processing-runtime-widget-1.0.0-beta.zip)
 
 
 This is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. The Processing Widget is designed to display the current process state based on the latest event. Updates the state whenever a new event is received.
@@ -15,11 +15,11 @@ To deliver the expected functionality one need to set/select the following confi
 
 ## Please note that this plugin is in currently under BETA mode.
   
-### Please choose Compass Widget release based on Cumulocity/Application builder version:
+### Please choose Processing Widget release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER  | CUMULOCITY  | COMPASS WIDGET   |
-|-------------------- |------------ |------------------|
-| 2.x.x(coming soon)  | >= 1016.x.x |	1.x.x            |
+|APPLICATION BUILDER  | CUMULOCITY  | PROCESSING WIDGET   |
+|-------------------- |------------ |---------------------|
+| 2.x.x(coming soon)  | >= 1016.x.x |	1.x.x              |
 
 ![process-widget](https://user-images.githubusercontent.com/67993842/99773965-33f5b800-2b33-11eb-98da-ba870cf324cf.PNG)
 
@@ -27,17 +27,18 @@ To deliver the expected functionality one need to set/select the following confi
  ## Features
 
  *  **Support single device and group devices:** Based on widget configuration.
- *  **Display realtime process update:** whenever a new event is triggered it updates the state based on the field value
- * **Displays the current state of the process:** Displays the current state based on last event status.
+ *  **Display realtime process update:** whenever a new event is triggered it updates the state based on the field value.
+ *  **Displays the current state of the process:** Displays the current state based on last event status.
 
 ## Prerequisite
 
    Cumulocity c8ycli >=1016.x.x
+
 ## Installation
  
- ### Runtime Widget Deployment?
+### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/tag/1.0.0-beta) and use application builder to install your runtime widget.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0-beta/processing-runtime-widget-1.0.0-beta.zip) and use application builder to install your runtime widget.
 
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.
@@ -60,7 +61,7 @@ This guide will teach you how to add widget in your existing or new dashboard.
 
 
 
-Congratulations! Process Widget is configured.
+Congratulations! Processing Widget is configured.
 
 
   
