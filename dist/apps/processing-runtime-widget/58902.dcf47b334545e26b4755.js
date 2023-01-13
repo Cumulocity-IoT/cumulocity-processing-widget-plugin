@@ -1,2 +1,0 @@
-/*! For license information please see 58902.dcf47b334545e26b4755.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[58902],{58902:function(u,c,i){i.r(c);const e=void 0;c.default=[[["𑄛𑄧𑄖𑄳𑄠𑄃𑄟𑄧𑄣𑄳𑄠𑄬","𑄝𑄬𑄚𑄳𑄠𑄬","𑄘𑄨𑄝𑄪𑄎𑄳𑄠","𑄝𑄬𑄣𑄳𑄠𑄬","𑄥𑄎𑄧𑄚𑄳𑄠","𑄢𑄬𑄖𑄴"],e,e],e,[["04:00","06:00"],["06:00","12:00"],["12:00","16:00"],["16:00","18:00"],["18:00","20:00"],["20:00","04:00"]]]}}]);

@@ -1,2 +1,0 @@
-/*! For license information please see 72618.4ef42c0b144036febc5e.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[72618],{72618:function(i,s,t){t.r(s);const a=void 0;s.default=[[["vidurnaktis","perpiet","rytas","popietė","vakaras","naktis"],a,a],[["vidurnaktis","vidurdienis","rytas","diena","vakaras","naktis"],a,a],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]}}]);

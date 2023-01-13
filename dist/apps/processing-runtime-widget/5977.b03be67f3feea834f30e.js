@@ -1,2 +1,0 @@
-/*! For license information please see 5977.b03be67f3feea834f30e.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[5977],{5977:function(u,k,i){i.r(k);const s=void 0;k.default=[[["kuty-si","kurã-kuju","kusãg ki","rãkãnh kỹ","kuty kỹ","kurã ge"],s,s],s,["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]}}]);

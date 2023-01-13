@@ -1,2 +1,0 @@
-/*! For license information please see 13193.e1795fe52fd32ee6a238.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[13193],{13193:function(u,c,i){i.r(c);const e=void 0;c.default=[[["મ.રાત્રિ","સવારે","બપોરે","સાંજે","રાત્રે"],["મધ્યરાત્રિ","સવારે","બપોરે","સાંજે","રાત્રે"],e],[["મધ્યરાત્રિ","સવારે","બપોરે","સાંજે","રાત્રે"],e,["મધ્યરાત્રિ","સવાર","બપોર","સાંજ","રાત્રિ"]],["00:00",["04:00","12:00"],["12:00","16:00"],["16:00","20:00"],["20:00","04:00"]]]}}]);

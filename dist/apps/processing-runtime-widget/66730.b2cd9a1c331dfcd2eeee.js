@@ -1,2 +1,0 @@
-/*! For license information please see 66730.b2cd9a1c331dfcd2eeee.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[66730],{66730:function(u,c,i){i.r(c);const e=void 0;c.default=[[["შუაღამეს","შუადღ.","დილ.","ნაშუადღ.","საღ.","ღამ."],e,["შუაღამეს","შუადღეს","დილით","ნაშუადღევს","საღამოს","ღამით"]],[["შუაღამე","შუადღე","დილა","ნაშუადღევი","საღამო","ღამე"],e,e],["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","05:00"]]]}}]);

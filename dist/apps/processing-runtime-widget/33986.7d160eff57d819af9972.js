@@ -1,2 +1,0 @@
-/*! For license information please see 33986.7d160eff57d819af9972.js.LICENSE.txt */
-"use strict";(self.webpackChunkcumulocity_processing_widget_plugin=self.webpackChunkcumulocity_processing_widget_plugin||[]).push([[33986],{33986:function(i,e,a){a.r(e);const n=void 0;e.default=[[["tengah malam","tengah hari","pagi","siang","sore","malam"],n,n],n,["00:00","12:00",["00:00","10:00"],["10:00","15:00"],["15:00","18:00"],["18:00","24:00"]]]}}]);
