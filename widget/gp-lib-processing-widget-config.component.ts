@@ -21,20 +21,20 @@ import { FormBuilder } from '@angular/forms';
 import { SELECTION_MODEL_FACTORY } from '@ng-select/ng-select';
 import { DefaultSelectionModelFactory } from './icon-selector/selection-model';
 @Component({
-    selector: 'lib-gp-lib-processing-widget-config',
-    templateUrl: './gp-lib-processing-widget-config.component.html',
-    styleUrls: ['./../node_modules/@ng-select/ng-select/themes/default.theme.css', './gp-lib-processing-widget-config.component.css'],
-    encapsulation: ViewEncapsulation.None,
-    providers: [FormBuilder,
-      { provide: SELECTION_MODEL_FACTORY, useValue: DefaultSelectionModelFactory }
-    ],
+  selector: 'lib-gp-lib-processing-widget-config',
+  templateUrl: './gp-lib-processing-widget-config.component.html',
+  styleUrls: ['./../node_modules/@ng-select/ng-select/themes/default.theme.css', './gp-lib-processing-widget-config.component.scss'],
+  encapsulation: ViewEncapsulation.None,
+  providers: [FormBuilder,
+    { provide: SELECTION_MODEL_FACTORY, useValue: DefaultSelectionModelFactory }
+  ],
 })
 // tslint:disable-next-line: component-class-suffix
 export class GpLibProcessingConfig implements OnInit {
   @Input() config: any = {};
   dataLoaded: any;
   displayedColumns = ['displayStatus', 'fieldValue', 'icon', 'action'];
-    constructor() {
+  constructor() {
   }
   ngOnInit() {
     if (this.config.innerChild === undefined) {
@@ -43,16 +43,16 @@ export class GpLibProcessingConfig implements OnInit {
 
     }
     if (this.config.dataSource === undefined) {
-      this.config.dataSource = [{displayStatus: '', fieldValue: '', matIcon: 'bathtub'}];
+      this.config.dataSource = [{ displayStatus: '', fieldValue: '', matIcon: 'bathtub' }];
     }
-    this.dataLoaded =  Promise.resolve(true);
+    this.dataLoaded = Promise.resolve(true);
   }
   deleteRow(i) {
     this.config.dataSource.splice(i, 1);
-    this.dataLoaded =  Promise.resolve(true);
+    this.dataLoaded = Promise.resolve(true);
   }
   addNewRow(i) {
-    this.config.dataSource.splice(i + 1, 0, {displayStatus: '', fieldValue: '', matIcon: 'bathtub'});
-    this.dataLoaded =  Promise.resolve(true);
+    this.config.dataSource.splice(i + 1, 0, { displayStatus: '', fieldValue: '', matIcon: 'bathtub' });
+    this.dataLoaded = Promise.resolve(true);
   }
 }

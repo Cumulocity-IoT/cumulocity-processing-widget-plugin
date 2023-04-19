@@ -1,4 +1,4 @@
-# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0-beta/processing-runtime-widget-1.0.0-beta.zip)
+# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0/sag-ps-pkg-processing-widget-1.0.0.zip)
 
 
 This is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. The Processing Widget is designed to display the current process state based on the latest event. Updates the state whenever a new event is received.
@@ -12,14 +12,12 @@ To deliver the expected functionality one need to set/select the following confi
  6. mat-icon name for each state(select)
  7. Include child devices - You can toggle the slider if you want the results for child devices also.
 
-
-## Please note that this plugin is in currently under BETA mode.
   
 ### Please choose Processing Widget release based on Cumulocity/Application builder version:
 
 |APPLICATION BUILDER  | CUMULOCITY  | PROCESSING WIDGET   |
 |-------------------- |------------ |---------------------|
-| 2.x.x(coming soon)  | >= 1016.x.x |	1.x.x              |
+| 2.0.x               | >= 1016.x.x |	1.x.x              |
 
 ![process-widget](https://user-images.githubusercontent.com/67993842/99773965-33f5b800-2b33-11eb-98da-ba870cf324cf.PNG)
 
@@ -38,7 +36,7 @@ To deliver the expected functionality one need to set/select the following confi
  
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0-beta/processing-runtime-widget-1.0.0-beta.zip) and use application builder to install your runtime widget.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.0/sag-ps-pkg-processing-widget-1.0.0.zip) and use application builder to install your runtime widget.
 
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.

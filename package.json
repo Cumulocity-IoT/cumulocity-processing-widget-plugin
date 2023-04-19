@@ -1,16 +1,20 @@
 {
   "name": "cumulocity-processing-widget-plugin",
-  "version": "1.0.0-beta",
-  "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
+  "version": "1.0.0",
+  "description": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
   "scripts": {
-    "start": "c8ycli server --env.beta=true",
+    "start": "c8ycli server",
     "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": [
+    "Cumulocity",
+    "Plugin",
+    "Widget"
+  ],
   "author": "Software AG, Global Presales",
   "license": "Apache 2.0",
   "dependencies": {
@@ -57,11 +61,11 @@
   },
   "c8y": {
     "application": {
-      "name": "Cumulocity Processing Widget Plugin",
-      "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
-      "contextPath": "processing-runtime-widget",
-      "key": "processing-runtime-widget-application-key",
-      "globalTitle": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
+      "name": "Processing Widget",
+      "description": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
+      "contextPath": "sag-ps-pkg-processing-widget",
+      "key": "sag-ps-pkg-processing-widget-application-key",
+      "globalTitle": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -72,10 +76,10 @@
       },
       "exports": [
         {
-          "name": "Cumulocity Processing Widget Plugin",
+          "name": "Processing Widget",
           "module": "GpLibProcessingWidgetModule",
           "path": "./widget/gp-lib-processing-widget.module",
-          "description": "This Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed."
+          "description": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed."
         }
       ],
       "remotes": {

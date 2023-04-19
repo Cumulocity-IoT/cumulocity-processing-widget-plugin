@@ -44,7 +44,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
         useValue: {
             id: 'trolley-processing.widget',
             label: 'Processing Widget',
-            description: 'Processing Widget',
+            description: 'The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.',
             previewImage: preview.previewImage,
             component: GpLibProcessingWidgetComponent,
             configComponent: GpLibProcessingConfig,
