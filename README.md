@@ -19,7 +19,7 @@ To deliver the expected functionality one need to set/select the following confi
 |-------------------- |------------ |---------------------|
 | 2.0.x               | >= 1016.x.x |	1.x.x              |
 
-![process-widget](https://user-images.githubusercontent.com/67993842/99773965-33f5b800-2b33-11eb-98da-ba870cf324cf.PNG)
+![process-widget](Images/process-widget.PNG)
 
 
  ## Features
@@ -65,7 +65,7 @@ Congratulations! Processing Widget is configured.
   
 ## User Guide
 
-![process-widget-config](https://user-images.githubusercontent.com/67993842/99774058-54257700-2b33-11eb-803c-d74674ccd225.PNG)
+![process-widget-config](Images/process-widget-config.PNG)
 
 1. Target Assets/Devices - deviceid/groupid of interest
 2. Event Type - name of the event type

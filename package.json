@@ -86,7 +86,21 @@
         "widget-plugin": [
           "GpLibProcessingWidgetModule"
         ]
-      }
+      },
+      "copy": [
+        {
+          "from": "Images/process-widget-config.PNG",
+          "to": "Images/process-widget-config.PNG"
+        },
+        {
+          "from": "Images/process-widget.PNG",
+          "to": "Images/process-widget.PNG"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
+        }
+      ]
     },
     "cli": {}
   },
