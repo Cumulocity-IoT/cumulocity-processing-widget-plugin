@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-processing-widget-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
   "scripts": {
     "start": "c8ycli server",
@@ -86,7 +86,21 @@
         "widget-plugin": [
           "GpLibProcessingWidgetModule"
         ]
-      }
+      },
+      "copy": [
+        {
+          "from": "images/process-widget-config.png",
+          "to": "images/process-widget-config.png"
+        },
+        {
+          "from": "images/process-widget.png",
+          "to": "images/process-widget.png"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
+        }
+      ]
     },
     "cli": {}
   },
