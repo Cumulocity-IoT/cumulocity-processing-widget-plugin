@@ -19,7 +19,7 @@ To deliver the expected functionality one need to set/select the following confi
 |-------------------- |------------ |---------------------|
 | 2.0.x               | >= 1016.x.x |	1.x.x              |
 
-![process-widget](images/process-widget.png)
+![process-widget](Images/process-widget.PNG)
 
 
  ## Features
