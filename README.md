@@ -65,7 +65,7 @@ Congratulations! Processing Widget is configured.
   
 ## User Guide
 
-![process-widget-config](images/process-widget-config.png)
+![process-widget-config](Images/process-widget-config.PNG)
 
 1. Target Assets/Devices - deviceid/groupid of interest
 2. Event Type - name of the event type
