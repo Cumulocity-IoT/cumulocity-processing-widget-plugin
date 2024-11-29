@@ -1,4 +1,8 @@
-# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.1/sag-ps-pkg-processing-widget-1.0.1.zip)
+# Deprecation notice
+This plugin is not further developed and it might break with upcoming Cumulocity IoT releases. Use it at your own risk.
+
+The repository is archived but feel free to fork & adapt it to your needs in a new repo.
+# Processing Widget Plugin for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.2/sag-ps-pkg-processing-widget-1.0.2.zip)
 
 
 This is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. The Processing Widget is designed to display the current process state based on the latest event. Updates the state whenever a new event is received.
@@ -36,7 +40,7 @@ To deliver the expected functionality one need to set/select the following confi
  
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.1/sag-ps-pkg-processing-widget-1.0.1.zip) and use application builder to install your runtime widget.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-processing-widget-plugin/releases/download/1.0.2/sag-ps-pkg-processing-widget-1.0.2.zip) and use application builder to install your runtime widget.
 
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.
@@ -81,7 +85,7 @@ Table Values - add as many rows as many process steps are there
 ------------------------------
   
   
-This widget is provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
+This widget is provided as-is and without warranty or support. They do not constitute part of the Cumulocity product suite. Users are free to use, fork and modify them, subject to the license agreement. While Cumulocity GmbH welcomes contributions, we cannot guarantee to include every contribution in the master project.
   
 _____________________
   

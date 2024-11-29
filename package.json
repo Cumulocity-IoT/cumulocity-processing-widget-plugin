@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-processing-widget-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Processing Widget is designed to display the current process state based on the latest event.Updates the state whenever a new event is subscribed.",
   "scripts": {
     "start": "c8ycli server",
@@ -15,7 +15,7 @@
     "Plugin",
     "Widget"
   ],
-  "author": "Software AG, Global Presales",
+  "author": "Cumulocity Ecosystem",
   "license": "Apache 2.0",
   "dependencies": {
     "@angular/animations": "14.0.6",
